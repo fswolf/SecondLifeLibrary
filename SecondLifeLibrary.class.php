@@ -2,10 +2,6 @@
 
 class SecondLifeLibrary {
 
-	public function __construct() { 
-		
-	} 
-
 	//converts name to lower case and adds last name if blank
 	public function uniform_name($name) { 
 		$name_array = explode(" ", mb_strtolower($name));
